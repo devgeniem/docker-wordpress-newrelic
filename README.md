@@ -7,5 +7,5 @@ This container installs newrelic php agent.
 Set these `env` for your container in order to use new relic.
 ```
 NR_LICENSE_KEY: xxxxxxxxxxxxxxxxxxxx
-NR_LICENSE_KEY: xxxxxxxxxxxxxxxxxxxx
+NR_APP_NAME: WP-site
 ```
