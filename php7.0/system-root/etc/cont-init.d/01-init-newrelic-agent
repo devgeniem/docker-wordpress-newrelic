@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bash
 
+mkdir -p /var/log/newrelic
+
 # Replace real app details here
 if [ -n "$NR_LICENSE_KEY" ]; then
     echo "INFO: Using newrelic license ${NR_LICENSE_KEY:0:8}..."
