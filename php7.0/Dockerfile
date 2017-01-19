@@ -3,7 +3,7 @@ FROM devgeniem/wordpress-server:php7.0
 # even php7.0 Uses php5.6 packages. Strange huh?
 ENV PHP_AGENT_PACKAGE="newrelic-php5-6.8.0.177-linux-musl" \
     NR_INSTALL_SILENT=1
-https://download.newrelic.com/php_agent/release/newrelic-php5-linux.tar.gz
+
 RUN curl -L "https://download.newrelic.com/php_agent/release/$PHP_AGENT_PACKAGE.tar.gz" | \
     tar -xvzC /tmp/ && \
     mv /tmp/$PHP_AGENT_PACKAGE /var/lib/newrelic && \
