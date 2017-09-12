@@ -1,4 +1,4 @@
-FROM devgeniem/wordpress-server:debian-php7.0
+FROM devgeniem/wordpress-server-kontena:debian-php7.0
 MAINTAINER Onni Hakala - Geniem Oy. <onni.hakala@geniem.com>
 
 ARG NR_INSTALL_SILENT=1
