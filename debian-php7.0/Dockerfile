@@ -1,5 +1,5 @@
-FROM devgeniem/wordpress-server-kontena:debian-php7.0
-MAINTAINER Onni Hakala - Geniem Oy. <onni.hakala@geniem.com>
+FROM devgeniem/docker-wordpress-kontena:debian-php7.0
+MAINTAINER Ville Pietarinen - Geniem Oy <ville.pietarinen-nospam@geniem.com>
 
 ARG NR_INSTALL_SILENT=1
 
