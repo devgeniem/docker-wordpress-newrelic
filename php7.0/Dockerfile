@@ -14,5 +14,5 @@ RUN curl -L https://download.newrelic.com/php_agent/release/${PHP_AGENT_PACKAGE}
 
 COPY system-root/ /
 
-RUN apk update \
-	apk add python
+RUN apk update 
+RUN	apk add python
